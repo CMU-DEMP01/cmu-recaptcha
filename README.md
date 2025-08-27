@@ -82,10 +82,14 @@ captcha
 
 ## 📸 Demo
 
-🎥 Demo video:
-`assistant-support.mp4` *(located in project directory)*
+🎥 **Demo video:**  
+`Recaptcha.mp4` *(located in project directory)*  
 
----
+ 
+```bash
+
+![App Screenshot](./pages/screenshot.png)
+
 
 ## 🤝 Contributing
 
