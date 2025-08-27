@@ -90,7 +90,6 @@ captcha
  
 ```bash
 
-![App Screenshot](https://github.com/CMU-DEMP01/cmu-recaptcha/blob/master/pages/screenshot.png)
 
 
 ## 🤝 Contributing
