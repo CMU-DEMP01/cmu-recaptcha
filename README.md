@@ -83,12 +83,12 @@ captcha
 ## 📸 Demo
 
 🎥 **Demo video:**  
-`Recaptcha.mp4` *(located in project directory)*  
+`https://github.com/CMU-DEMP01/cmu-recaptcha/blob/master/Recaptcha.mp4` *(located in project directory)*  
 
  
 ```bash
 
-![App Screenshot](./pages/screenshot.png)
+![App Screenshot](https://github.com/CMU-DEMP01/cmu-recaptcha/blob/master/pages/screenshot.png)
 
 
 ## 🤝 Contributing
