@@ -83,7 +83,9 @@ captcha
 ## 📸 Demo
 
 🎥 **Demo video:**  
-`https://github.com/CMU-DEMP01/cmu-recaptcha/blob/master/Recaptcha.mp4` *(located in project directory)*  
+[▶️ Watch Demo](https://github.com/CMU-DEMP01/cmu-recaptcha/raw/master/Recaptcha.mp4)  
+
+![App Screenshot](https://github.com/CMU-DEMP01/cmu-recaptcha/raw/master/pages/screenshot.png)
 
  
 ```bash
