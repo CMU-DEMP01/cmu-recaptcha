@@ -1,64 +1,110 @@
-# Captcha Application
 
-This project is a Next.js application that integrates Google reCAPTCHA v2 to provide a secure way to verify user interactions. The application includes a user-friendly interface for submitting forms while ensuring that submissions are made by real users.
 
-## Project Structure
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61dafb?logo=react)](https://reactjs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/CMU-DEMP01/cmu-recaptcha)](https://github.com/CMU-DEMP01/cmu-recaptcha/issues)
+[![GitHub stars](https://img.shields.io/github/stars/CMU-DEMP01/cmu-recaptcha)](https://github.com/CMU-DEMP01/cmu-recaptcha/stargazers)
+
+**An application** that integrates **Google reCAPTCHA v2** to securely verify user interactions.  
+This project ensures that form submissions are protected against bots while providing a clean, user-friendly interface.
+
+---
+
+## 📂 Project Structure
 
 ```
-capcha
-├── .env                  # Environment variables for the application
-├── package.json          # npm configuration file
-├── next.config.js       # Next.js configuration settings
-├── pages                 # Contains all the page components
-│   ├── _app.js          # Initializes pages and global styles
-│   ├── index.js         # Main entry point for the application
-│   └── api              # API routes for server-side logic
-│       └── verify-captcha.js # Verifies reCAPTCHA responses
-├── components            # Reusable React components
-│   ├── CaptchaForm.js   # Component for the reCAPTCHA form
-│   └── Layout.js        # Layout component for wrapping content
-├── public                # Static files (images, icons, etc.)
-├── styles                # CSS files for styling the application
-│   ├── globals.css      # Global styles for the application
-│   └── Home.module.css  # Scoped styles for the home page
-└── README.md            # Documentation for the project
-```
 
-## Setup Instructions
+captcha
+├── .env                      # Environment variables (ignored in git)
+├── package.json              # npm configuration file
+├── next.config.js            # Next.js configuration
+├── pages/                    # Page components
+│   ├── \_app.js               # Global styles & app initialization
+│   ├── index.js              # Main entry point
+│   └── api/                  # API routes
+│       └── verify-captcha.js # reCAPTCHA server verification
+├── components/               # Reusable React components
+│   ├── CaptchaForm.js        # Captcha-enabled form
+│   └── Layout.js             # Layout wrapper
+├── public/                   # Static assets (images, icons, etc.)
+├── styles/                   # Styling
+│   ├── globals.css           # Global styles
+│   └── Home.module.css       # Scoped styles
+└── README.md                 # Documentation
 
-1. **Clone the repository:**
-   ```
-   git clone <repository-url>
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/CMU-DEMP01/cmu-recaptcha.git
    cd capcha
-   ```
 
-2. **Install dependencies:**
-   ```
+
+2. **Install dependencies**
+
+   ```sh
    npm install
    ```
 
-3. **Configure environment variables:**
-   Create a `.env` file in the root directory and add your Google reCAPTCHA keys and redirect URL:
-   ```
+3. **Configure environment variables**
+   Create a `.env` file in the root directory:
+
+   ```env
    NEXT_PUBLIC_RECAPTCHA_SITE_KEY=your_site_key
    RECAPTCHA_SECRET_KEY=your_secret_key
    REDIRECT_URL=https://your.redirect.url
    ```
 
-4. **Run the application:**
-   ```
+4. **Run the application**
+
+   ```sh
    npm run dev
    ```
-   Open your browser and navigate to `http://localhost:3000` to view the application.
 
-## Usage
+   Open ➝ [http://localhost:3000](http://localhost:3000)
 
-The application provides a form that users can fill out. Upon submission, the reCAPTCHA widget will verify that the user is not a bot. If the verification is successful, the form data will be processed accordingly.
+---
 
-## Contributing
+## 🚀 Usage
 
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+* The app provides a form with **Google reCAPTCHA v2**.
+* Users must complete the captcha before submitting the form.
+* On success, form data is securely processed.
+* Protects your app against **spam** and **bot abuse**.
 
-## License
+---
 
-This project is licensed under the MIT License.
+## 📸 Demo
+
+🎥 Demo video:
+`assistant-support.mp4` *(located in project directory)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+* Open an **issue** for bug reports or feature requests.
+* Submit a **pull request** with improvements.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🌟 Acknowledgements
+
+* [React](https://reactjs.org/)
+* [Google reCAPTCHA](https://www.google.com/recaptcha/)
+
+
